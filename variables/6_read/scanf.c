@@ -6,8 +6,9 @@ int r;
 float l, a;
 printf("Introduce radio (entero): ");
 scanf("%d", &r);
-l=2*PI*r; 
-a=PI*r*r;
-printf("La longitud de la circunferencia vale %f\n", l);
-printf("El área del círculo vale %f\n", a);
+l=PI*(r*2); 
+a=pow(r,2)*PI;
+printf("La longitud de la circunferencia vale %g\n", l);
+printf("El area del calculo vale %g\n", a);
 }
+
